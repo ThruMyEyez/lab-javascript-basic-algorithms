@@ -47,8 +47,6 @@ const driver = "The driver's name goes first.",
   sameName = "What?! You both have the same name?";
 
 let x = hacker1.localeCompare(hacker2);
-console.log(x);
-console.log("Felix".localeCompare("Fargo"));
 if (x === 0) {
   sameName;
   console.log(sameName);
