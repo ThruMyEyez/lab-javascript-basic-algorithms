@@ -18,3 +18,18 @@ if (hacker1.length == hacker2.length) {
   );
 }
 // Iteration 3: Loops
+// Solution for 3.1
+
+let separated = "";
+for (let i = 0; i < hacker1.length; i++) {
+  console.log(hacker1.charAt(i));
+  separated = separated + hacker1[i].toUpperCase();
+  if (i != hacker1.length - 1) {
+    console.log(i);
+    separated = separated + " ";
+  }
+}
+
+console.log(
+  `Driver name length:${hacker1.length} - Result length: ${separated.length} - Result: ${separated}`
+);
