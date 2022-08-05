@@ -9,8 +9,7 @@ if (hacker1.length == hacker2.length) {
   console.log(
     `Wow, you both have equally long names, ${hacker2.length} characters!`
   );
-}
-if (hacker1.length > hacker2.length) {
+} else if (hacker1.length > hacker2.length) {
   console.log(
     `The driver has the longest name, it has ${hacker1.length} characters.`
   );
@@ -68,6 +67,7 @@ if (x === 0) {
 // ??? Please correct if this is false.
 // :: END OF SIDE NOTES :: =>
 // Solution with "<" ">" instead of .localCompare()
+/*
 if (hacker1 === hacker2) {
   console.log(sameName);
 } else if (hacker1 > hacker2) {
@@ -75,6 +75,7 @@ if (hacker1 === hacker2) {
 } else {
   console.log(driver);
 }
+*/
 /* *** Bonus one *** */
 /* Generate 3 paragraphs. Store the text in a variable type of string 🎯 => */
 
